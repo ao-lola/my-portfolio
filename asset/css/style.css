@@ -1,0 +1,104 @@
+/*primary color : #00BCD5 for blue*/
+/*primary color for pink #FF4181 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVIGATION */
+
+.primary-color {
+  color: #00bcd5;
+}
+
+.primary-background {
+  color: #00bcd5;
+}
+
+#my-nav {
+  margin-right: 55px;
+  font-family: "lato";
+  font-size: 13px;
+}
+
+#icon-home {
+  font-size: 40px;
+  color: #00bcd5;
+}
+
+.logo-text {
+  font-size: 18px;
+  font-family: "lato";
+}
+
+/* .logo {
+  height: 60px;
+  width: auto;
+  margin-top: 15px;
+}  */
+
+/* HEADER */
+
+header {
+  background-image: linear-gradient(rgba(5, 5, 5, 0.89), rgba(8, 8, 8, 0.89)),
+    url("../images/mine.JPG");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.header-image {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  padding: 10px;
+  color: white;
+}
+
+.highlight {
+  color: #00bcd5;
+}
+
+.long-text {
+  color: white;
+}
+
+.btn {
+  margin-left: 530px;
+}
+.btn-show {
+  margin-top: 80px;
+}
+
+#show-arrow {
+  font-size: 10px;
+  padding: 2px 5px;
+}
+
+.show-text {
+  font-size: 10px;
+}
+/* Media Query Settings Here */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
